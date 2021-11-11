@@ -1,6 +1,6 @@
 ﻿namespace Recognizer
 {
-	public static class GrayscaleTask
+	internal static class GrayscaleTask
 	{
 		/* 
 		 * Переведите изображение в серую гамму.
@@ -17,10 +17,21 @@
 		 * Почему формула именно такая — читайте в википедии 
 		 * http://ru.wikipedia.org/wiki/Оттенки_серого
 		 */
-
 		public static double[,] ToGrayscale(Pixel[,] original)
 		{
-			return new double[original.GetLength(0), original.GetLength(1)];
+			var width = original.GetLength(0);
+			var height = original.GetLength(1);
+			var grayscale = new double[width, height];
+			for (var i = 0; i < width; i++)
+			{
+				for (var j = 0; j < height; j++)
+				{
+					var pixel = original[i, j];
+					grayscale[i, j] = (0.299 * pixel.R + 0.587 * pixel.G + 0.114 * pixel.B) / 255;
+				}
+			}
+            
+			return grayscale;
 		}
 	}
 }
