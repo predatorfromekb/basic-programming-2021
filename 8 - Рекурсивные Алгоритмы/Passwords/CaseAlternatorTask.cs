@@ -1,6 +1,4 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace Passwords
 {
@@ -14,10 +12,30 @@ namespace Passwords
             return result;
         }
 
-        static void AlternateCharCases(char[] word, int startIndex, List<string> result)
+        private static void AlternateCharCases(char[] word, int startIndex, List<string> result)
         {
-            // TODO
-            result.Add(new string (word));
+            if (startIndex == word.Length)
+            {
+                result.Add(new string (word));
+                return;
+            }
+
+            var currentChar = word[startIndex];
+
+            var upperChar = char.ToUpper(currentChar);
+            var lowerChar = char.ToLower(currentChar);
+
+            if (!char.IsLetter(currentChar) || upperChar == lowerChar)
+            {
+                AlternateCharCases(word, startIndex + 1, result);
+            }
+            else
+            {
+                word[startIndex] = lowerChar;
+                AlternateCharCases(word, startIndex + 1, result);
+                word[startIndex] = upperChar;
+                AlternateCharCases(word, startIndex + 1, result);
+            }
         }
     }
 }
