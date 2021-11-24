@@ -22,15 +22,22 @@ namespace Autocomplete
         /// </remarks>
         public static int GetLeftBorderIndex(IReadOnlyList<string> phrases, string prefix, int left, int right)
         {
-            // IReadOnlyList похож на List, но у него нет методов модификации списка.
-            // Этот код решает задачу, но слишком неэффективно. Замените его на бинарный поиск!
-            for (int i = 0; i < phrases.Count; i++)
+            while (true)
             {
-                if (string.Compare(prefix, phrases[i], StringComparison.OrdinalIgnoreCase) < 0
-                    || phrases[i].StartsWith(prefix, StringComparison.OrdinalIgnoreCase))
-                    return i - 1;
+                var middle = left + (int) Math.Floor((double) (right - left) / 2);
+                if (middle == left)
+                {
+                    return left;
+                }
+
+                if (string.Compare(prefix, phrases[middle], StringComparison.OrdinalIgnoreCase) <= 0)
+                {
+                    right = middle;
+                    continue;
+                }
+
+                left = middle;
             }
-            return phrases.Count-1;
         }
     }
 }
