@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seminar", "Seminar\Seminar.csproj", "{E6EA99AE-C8BC-453C-800A-9E94BFB41C42}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox", "Sandbox\Sandbox.csproj", "{E6EA99AE-C8BC-453C-800A-9E94BFB41C42}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{46833751-1783-46E4-A0B2-EEA8BAE6FF83}"
 EndProject

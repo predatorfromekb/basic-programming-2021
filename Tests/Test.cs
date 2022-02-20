@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace Seminar
+namespace Tests
 {
     [TestFixture]
     public class Test

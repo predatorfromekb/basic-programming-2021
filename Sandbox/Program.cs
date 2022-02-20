@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Seminar
+namespace Sandbox
 {
-    class Program
+    public static class Program
     {
         static void Main(string[] args)
         {
