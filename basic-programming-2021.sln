@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "basic-programming-1", "basic-programming-1", "{F554F7B1-D4BE-46BC-B69F-C0AE20F9DC3C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Очереди, стеки, дженерики", "1 - Очереди, стеки, дженерики", "{B590096C-025F-409F-945E-025007DBBBF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LimitedSizeStack", "1 - Очереди, стеки, дженерики\LimitedSizeStack\LimitedSizeStack.csproj", "{38181845-7439-451A-BC6E-1DB5C403D168}"
+EndProject
 
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +25,13 @@ Global
 		{46833751-1783-46E4-A0B2-EEA8BAE6FF83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46833751-1783-46E4-A0B2-EEA8BAE6FF83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46833751-1783-46E4-A0B2-EEA8BAE6FF83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38181845-7439-451A-BC6E-1DB5C403D168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38181845-7439-451A-BC6E-1DB5C403D168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38181845-7439-451A-BC6E-1DB5C403D168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38181845-7439-451A-BC6E-1DB5C403D168}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{38181845-7439-451A-BC6E-1DB5C403D168} = {B590096C-025F-409F-945E-025007DBBBF6}
 	EndGlobalSection
 
 EndGlobal
