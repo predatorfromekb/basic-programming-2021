@@ -12,5 +12,7 @@
     &lt;ProjectFile&gt;38181845-7439-451A-BC6E-1DB5C403D168/f:ListModel_PerformanceTest.cs&lt;/ProjectFile&gt;&#xD;
     &lt;ProjectFile&gt;38181845-7439-451A-BC6E-1DB5C403D168/f:ListModel_should.cs&lt;/ProjectFile&gt;&#xD;
     &lt;ProjectFile&gt;7A1C49BA-A936-44CB-B6C9-A28953D325FE/f:CloneVersionSystem_should.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;38181845-7439-451A-BC6E-1DB5C403D168/f:LimitedSizeStack_should.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;38181845-7439-451A-BC6E-1DB5C403D168/f:LimitedSizeStack_PerformanceTest.cs&lt;/ProjectFile&gt;&#xD;
   &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
