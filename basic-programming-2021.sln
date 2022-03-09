@@ -20,6 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Листы и слов�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hashes-readonly-bytes", "3 - Листы и словари\hashes-readonly-bytes\hashes-readonly-bytes.csproj", "{7972F620-5846-42A6-AC4C-EDE3FB4C5940}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hashes-ghosts", "3 - Листы и словари\hashes-ghosts\hashes-ghosts.csproj", "{AEE430F3-E372-45CD-AB2E-224CB3678CB3}"
+EndProject
 
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,12 +53,17 @@ Global
 		{7972F620-5846-42A6-AC4C-EDE3FB4C5940}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7972F620-5846-42A6-AC4C-EDE3FB4C5940}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7972F620-5846-42A6-AC4C-EDE3FB4C5940}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEE430F3-E372-45CD-AB2E-224CB3678CB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE430F3-E372-45CD-AB2E-224CB3678CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE430F3-E372-45CD-AB2E-224CB3678CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE430F3-E372-45CD-AB2E-224CB3678CB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{38181845-7439-451A-BC6E-1DB5C403D168} = {B590096C-025F-409F-945E-025007DBBBF6}
 		{7A1C49BA-A936-44CB-B6C9-A28953D325FE} = {B590096C-025F-409F-945E-025007DBBBF6}
 		{BA12A5CD-FF42-4D24-AB0A-2458B8A70FAC} = {08D1B9EC-32E6-418F-BA62-312F1FB60CD0}
 		{7972F620-5846-42A6-AC4C-EDE3FB4C5940} = {2BA1CE88-F294-4799-B7C8-C614CDF1DAAD}
+		{AEE430F3-E372-45CD-AB2E-224CB3678CB3} = {2BA1CE88-F294-4799-B7C8-C614CDF1DAAD}
 	EndGlobalSection
 
 EndGlobal
