@@ -11,7 +11,10 @@
   &lt;Project Location="C:\Users\predator\RiderProjects\basic-programming-2021\Tests" Presentation="&amp;lt;Tests&amp;gt;" /&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fc239a9f_002D0ca8_002D4502_002D903b_002D8f8eb4b79988/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="MovingMaxTests #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::BA12A5CD-FF42-4D24-AB0A-2458B8A70FAC::.NETFramework,Version=v4.7.2::yield.MovingMaxTests&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::BA12A5CD-FF42-4D24-AB0A-2458B8A70FAC::.NETFramework,Version=v4.7.2::yield.MovingMaxTests&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;ProjectFile&gt;7972F620-5846-42A6-AC4C-EDE3FB4C5940/f:ReadonlyBytesTests.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
