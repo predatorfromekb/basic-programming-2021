@@ -1,20 +1,17 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c7a5448f_002D7737_002D4020_002D81ae_002Decc637004131/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Or&gt;&#xD;
-    &lt;TestAncestor&gt;&#xD;
-      &lt;TestId&gt;NUnit3x::46300163-1BDE-4535-B5A1-60A599CE0A25::.NETFramework,Version=v4.7.2::TableParser.QuotedFieldTaskTests&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;NUnit3x::46300163-1BDE-4535-B5A1-60A599CE0A25::.NETFramework,Version=v4.7.2::TableParser.FieldParserTaskTests&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;NUnit3x::46833751-1783-46E4-A0B2-EEA8BAE6FF83::net5.0::Seminar.Test&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;NUnit3x::B4936139-89E4-4A9C-B814-2FA5D8D47BA7::.NETFramework,Version=v4.5.2::GameOfLife.GameTests&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;NUnit3x::B4936139-89E4-4A9C-B814-2FA5D8D47BA7::.NETFramework,Version=v4.8::GameOfLife.GameTests.SomeTest&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;NUnit3x::B4936139-89E4-4A9C-B814-2FA5D8D47BA7::.NETFramework,Version=v4.8::GameOfLife.GameTests&lt;/TestId&gt;&#xD;
-    &lt;/TestAncestor&gt;&#xD;
-    &lt;ProjectFile&gt;38181845-7439-451A-BC6E-1DB5C403D168/f:ListModel_PerformanceTest.cs&lt;/ProjectFile&gt;&#xD;
-    &lt;ProjectFile&gt;38181845-7439-451A-BC6E-1DB5C403D168/f:ListModel_should.cs&lt;/ProjectFile&gt;&#xD;
-    &lt;ProjectFile&gt;7A1C49BA-A936-44CB-B6C9-A28953D325FE/f:CloneVersionSystem_should.cs&lt;/ProjectFile&gt;&#xD;
-    &lt;ProjectFile&gt;38181845-7439-451A-BC6E-1DB5C403D168/f:LimitedSizeStack_should.cs&lt;/ProjectFile&gt;&#xD;
-    &lt;ProjectFile&gt;38181845-7439-451A-BC6E-1DB5C403D168/f:LimitedSizeStack_PerformanceTest.cs&lt;/ProjectFile&gt;&#xD;
-    &lt;ProjectFile&gt;BA12A5CD-FF42-4D24-AB0A-2458B8A70FAC/f:ExpSmoothingTests.cs&lt;/ProjectFile&gt;&#xD;
-    &lt;ProjectFile&gt;BA12A5CD-FF42-4D24-AB0A-2458B8A70FAC/f:MovingAverageTests.cs&lt;/ProjectFile&gt;&#xD;
-  &lt;/Or&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=25d47546_002Dcd9f_002D4e91_002Db8c3_002Dfc547f6d4eb3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MovingMaxTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::BA12A5CD-FF42-4D24-AB0A-2458B8A70FAC::.NETFramework,Version=v4.7.2::yield.MovingMaxTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=295e9b53_002De68b_002D4788_002Dad4f_002Dc20fb7871fb8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;2 - yield return&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="C:\Users\predator\RiderProjects\basic-programming-2021" Presentation="&amp;lt;2 - yield return&amp;gt;" /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6fa4fedc_002Dfd86_002D46f5_002Da9fd_002D3b88f6b24bd1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;Tests&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="C:\Users\predator\RiderProjects\basic-programming-2021\Tests" Presentation="&amp;lt;Tests&amp;gt;" /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fc239a9f_002D0ca8_002D4502_002D903b_002D8f8eb4b79988/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="MovingMaxTests #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::BA12A5CD-FF42-4D24-AB0A-2458B8A70FAC::.NETFramework,Version=v4.7.2::yield.MovingMaxTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
