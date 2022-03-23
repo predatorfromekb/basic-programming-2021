@@ -1,8 +1,12 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=25d47546_002Dcd9f_002D4e91_002Db8c3_002Dfc547f6d4eb3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MovingMaxTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::BA12A5CD-FF42-4D24-AB0A-2458B8A70FAC::.NETFramework,Version=v4.7.2::yield.MovingMaxTests&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::BA12A5CD-FF42-4D24-AB0A-2458B8A70FAC::.NETFramework,Version=v4.7.2::yield.MovingMaxTests&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::4952B70C-9974-4E05-AC3B-A86596A0C537::.NETFramework,Version=v4.7.2::func.brainfuck.VirtualMachineTests&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;ProjectFile&gt;4952B70C-9974-4E05-AC3B-A86596A0C537/f:BrainfuckBasicCommandsTests.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=295e9b53_002De68b_002D4788_002Dad4f_002Dc20fb7871fb8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;2 - yield return&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Project Location="C:\Users\predator\RiderProjects\basic-programming-2021" Presentation="&amp;lt;2 - yield return&amp;gt;" /&gt;&#xD;
@@ -17,5 +21,6 @@
     &lt;/TestAncestor&gt;&#xD;
     &lt;ProjectFile&gt;7972F620-5846-42A6-AC4C-EDE3FB4C5940/f:ReadonlyBytesTests.cs&lt;/ProjectFile&gt;&#xD;
     &lt;Project Location="C:\Users\predator\RiderProjects\basic-programming-2021\3 - Листы и словари\hashes-ghosts" Presentation="&amp;lt;3 - Листы и словари&amp;gt;\&amp;lt;hashes-ghosts&amp;gt;" /&gt;&#xD;
+    &lt;ProjectFile&gt;4952B70C-9974-4E05-AC3B-A86596A0C537/f:VirtualMachineTests.cs&lt;/ProjectFile&gt;&#xD;
   &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
