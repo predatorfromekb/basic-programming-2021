@@ -14,7 +14,15 @@ namespace linq_slideviews
 		/// <exception cref="InvalidOperationException">Если последовательность не содержит элементов</exception>
 		public static double Median(this IEnumerable<double> items)
 		{
-			throw new NotImplementedException();
+			var orderedItems = items
+				.OrderBy(e => e)
+				.ToList();
+			var count = orderedItems.Count;
+			if (orderedItems.Count == 0)
+				throw new InvalidOperationException();
+			if (count % 2 == 1)
+				return orderedItems[count / 2];
+			return (orderedItems[count / 2] + orderedItems[count / 2 - 1]) / 2;
 		}
 
 		/// <returns>
@@ -23,7 +31,15 @@ namespace linq_slideviews
 		/// </returns>
 		public static IEnumerable<Tuple<T, T>> Bigrams<T>(this IEnumerable<T> items)
 		{
-			throw new NotImplementedException();
+			var first = true;
+			var prev = default(T);
+			foreach (var item in items)
+			{
+				if (!first)
+					yield return Tuple.Create(prev, item);
+				first = false;
+				prev = item;
+			}
 		}
 	}
 }
